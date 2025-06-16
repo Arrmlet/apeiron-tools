@@ -2,7 +2,7 @@
 
 > **"Access Every Knowledge The World Has"**
 
-**The world's first infinite AI tool orchestration network on Bittensor Subnet #122**
+**The world's first infinite AI tool orchestration network on Bittensor Subnet #**
 
 Transform AI from "50 tools max" to unlimited capability through decentralized MCP server orchestration.
 
@@ -25,7 +25,7 @@ We create a decentralized network where:
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                    BITTENSOR SUBNET #122                    │
+│                    BITTENSOR SUBNET #                    │
 ├─────────────────────────────────────────────────────────────┤
 │  🔍 VALIDATORS                    🤖 MINERS (1024+)         │
 │  ├─ Complex Query Generation      ├─ MCP Server Clusters   │
@@ -70,7 +70,7 @@ npm install -g @modelcontextprotocol/server-github
 npm install -g @modelcontextprotocol/server-sqlite
 
 # 3. Register on Bittensor subnet
-btcli subnet register --netuid 122
+btcli subnet register --netuid 
 
 # 4. Run the miner
 python neurons/miner.py --wallet.name your_wallet --wallet.hotkey your_hotkey
@@ -83,7 +83,7 @@ python neurons/miner.py --wallet.name your_wallet --wallet.hotkey your_hotkey
 pip install -r requirements.txt
 
 # 2. Register on Bittensor subnet  
-btcli subnet register --netuid 122
+btcli subnet register --netuid 
 
 # 3. Run the validator
 python neurons/validator.py --wallet.name your_wallet --wallet.hotkey your_hotkey
@@ -298,7 +298,7 @@ npm install -g @modelcontextprotocol/server-filesystem
 btcli wallet balance
 
 # Verify subnet exists
-btcli subnet list | grep 122
+btcli subnet list | grep 
 ```
 
 **❌ Memory issues with large queries**
